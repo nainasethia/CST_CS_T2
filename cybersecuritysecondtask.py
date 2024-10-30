@@ -1,4 +1,4 @@
-from PIL import Image # type: ignore
+from PIL import Image
 
 def encrypt_image(input_path, output_path, key):
     img = Image.open(input_path)
